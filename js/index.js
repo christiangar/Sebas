@@ -89,7 +89,7 @@ $spin.on('click',function(){
     $data.addClass('reveal');
     $inner.addClass('rest');
     
-    $thisResult = '<li class="previous-result color-'+ color +'"><span class="previous-number">'+ "El plan de hoy es: " + activity[randomNumber] +'</span><span class="previous-color">';
+    $thisResult = '<li class="previous-result color-'+ color +'"><span class="previous-number">'+ "Te ha tocado... " + activity[randomNumber] +'</span><span class="previous-color">';
      
     $('.previous-list').prepend($thisResult);
     VoiceRSS.speech({
