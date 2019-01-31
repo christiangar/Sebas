@@ -67,7 +67,7 @@ $spin.on('click',function(){
   
   
   setTimeout(function() {
-      $mask.text('¿Nerviosa?');
+      $mask.text('¿Nervios?');
       }, timer/2);
   
   setTimeout(function() {
